@@ -1,7 +1,4 @@
-/* 
- *  Bu kodlar teensy 4.0 ve teensy 4.1 kartları için yazılmıştır.
- *  Arduino Uno ilede çalışır ama Ledin pinleri doğru bağlanmalıdır.
- *  Ve ona göre ayarlanmalıdır.
+/* Digital pine bağlanmalıdır
  *  Noktalar 0, Çizgiler 1 dir.
  *  Ledin uzun bacağı artı(+), kısa bacağı eksidir(-).
  *  Artı bacağı belirlenen pine bağlanırken eksi bacak Gndye bağlanır.
