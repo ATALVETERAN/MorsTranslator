@@ -21,7 +21,7 @@ void loop() {
       int uzunluk1 = deger.length(); // deger değişkeninin uzunluğunu uzunluk1 değişkenine atar
       for (int i = 0; i < uzunluk1; i++){ // burası deger değişkeninin içindekini harf harf almak için
         if(deger[i] != ' '){ // eğer boşluk varsa atliyor işlem yapılmıyor
-          String harf = deger[i]; // harfleri teker teker harf değişkenine atıyor
+          String harf = String(deger[i]); // harfleri teker teker harf değişkenine atıyor
           for (int x = 0; x < 42; x++){ 
             if (harf == alfabe[x]){// harf değişkenindeki harf alfabe dizisinde bulunuyor
               String mors_harf = mors10[x]; // alfabe dizisinde denk gelen harfe denk gelen mors karşılığı bulunuyor ve değişkene ataniyor
