@@ -1,3 +1,3 @@
 # MorsTranslator
 
-Bu kodları herhangi digijal pini olan bir mikrodenetliyici platformunda çalıştırabilirsiniz.
+Bu kodları Arduino destekleyen herhangi bir mikrodenetliyicide çalıştırabilirsiniz.
